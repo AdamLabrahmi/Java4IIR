@@ -5,6 +5,7 @@
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
 
 fait par : Labrahmi Adam
+<img src="" style="height:464px;margin-right:432px"/>
 ***
 
 ## Introduction
@@ -220,6 +221,8 @@ class GestionTaches {
 }
 ```
 
+Remarque : On remarque que ce code permet de gérer une liste de tâches de manière simple et efficace.
+L’utilisation de LinkedList facilite l’ajout, la suppression et la mise à jour des tâches.
 
 ### Quiz sur les Listes (ArrayList et LinkedList)
 
@@ -816,6 +819,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
