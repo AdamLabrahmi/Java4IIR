@@ -4,9 +4,10 @@
 
 *Destiné aux étudiants de 4 IIR - EMSI Casablanca*
 
-fait par : Labrahmi Adam
-<img src="" style="height:464px;margin-right:432px"/>
-***
+<img src="me.jpg" style="height:464px;margin-right:432px"/>
+
+Fait par : Labrahmi Adam
+<hr/>
 
 ## Introduction
 
@@ -822,6 +823,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
