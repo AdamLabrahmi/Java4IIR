@@ -140,6 +140,9 @@ class GestionBibliotheque {
 ```
 
 
+Remarque :
+Au départ, je n'avais pas envisagé que la classe Livre pourrait nécessiter un attribut pour faire référence à la bibliothèque (GestionBibliotheque). Après explication, j'ai compris l'utilité de cet attribut : il permet à chaque livre de savoir à quelle bibliothèque il appartient, ce qui facilite sa gestion.
+
 ***
 
 ## LinkedList - Partie 1
@@ -813,6 +816,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
