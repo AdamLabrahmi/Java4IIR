@@ -329,6 +329,9 @@ class GestionEtudiants {
 ```
 
 
+Remarque :
+On remarque que les éléments ne s’affichent pas dans un ordre précis, car la collection HashSet ne garantit pas l’ordre d’insertion.
+De plus, le dernier étudiant n’apparaît pas, puisqu’il possède le même hashCode qu’un autre objet et est donc considéré comme un doublon.
 ***
 
 ## LinkedHashSet
@@ -819,6 +822,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
