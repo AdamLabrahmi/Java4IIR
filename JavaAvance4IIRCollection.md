@@ -423,7 +423,8 @@ public class Personne implements Comparable<Personne> {
     }
 }
 ```
-
+Remarque : On remarque que les personnes sont automatiquement triées par ordre alphabétique du nom grâce à l’utilisation de TreeSet et à l’implémentation de la méthode compareTo.
+Chaque objet Personne est affiché avec son nom et son âge, et TreeSet empêche les doublons selon le critère de comparaison.
 
 ***
 
@@ -471,7 +472,8 @@ public class Personne {
     }
 }
 ```
-
+Remarque : On remarque que les personnes sont automatiquement triées par âge grâce à l’utilisation de TreeSet avec un Comparator.
+Chaque objet Personne est affiché avec son nom et son âge, et le TreeSet empêche l’ajout de doublons selon le critère défini par le Comparator.
 
 ### Quiz sur les Sets (HashSet, LinkedHashSet, TreeSet)
 
@@ -823,6 +825,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
