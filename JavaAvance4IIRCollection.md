@@ -142,7 +142,7 @@ class GestionBibliotheque {
 ```
 
 
-Remarque :
+Commentaire :
 Au départ, je n'avais pas envisagé que la classe Livre pourrait nécessiter un attribut pour faire référence à la bibliothèque (GestionBibliotheque). Après explication, j'ai compris l'utilité de cet attribut : il permet à chaque livre de savoir à quelle bibliothèque il appartient, ce qui facilite sa gestion.
 
 ***
@@ -222,7 +222,7 @@ class GestionTaches {
 }
 ```
 
-Remarque : On remarque que ce code permet de gérer une liste de tâches de manière simple et efficace.
+Commentaire : On remarque que ce code permet de gérer une liste de tâches de manière simple et efficace.
 L’utilisation de LinkedList facilite l’ajout, la suppression et la mise à jour des tâches.
 
 ### Quiz sur les Listes (ArrayList et LinkedList)
@@ -330,7 +330,7 @@ class GestionEtudiants {
 ```
 
 
-Remarque :
+Commentaire :
 On remarque que les éléments ne s’affichent pas dans un ordre précis, car la collection HashSet ne garantit pas l’ordre d’insertion.
 De plus, le dernier étudiant n’apparaît pas, puisqu’il possède le même hashCode qu’un autre objet et est donc considéré comme un doublon.
 ***
@@ -362,6 +362,9 @@ public class ExempleLinkedHashSet {
     }
 }
 ```
+Commentaire : 
+On remarque que le LinkedHashSet conserve l’ordre d’insertion des éléments.
+L’élément "Ali" ajouté deux fois n’apparaît qu’une seule fois, car les doublons sont ignorés automatiquement.
 
 
 ***
@@ -423,7 +426,7 @@ public class Personne implements Comparable<Personne> {
     }
 }
 ```
-Remarque : On remarque que les personnes sont automatiquement triées par ordre alphabétique du nom grâce à l’utilisation de TreeSet et à l’implémentation de la méthode compareTo.
+Commentaire : On remarque que les personnes sont automatiquement triées par ordre alphabétique du nom grâce à l’utilisation de TreeSet et à l’implémentation de la méthode compareTo.
 Chaque objet Personne est affiché avec son nom et son âge, et TreeSet empêche les doublons selon le critère de comparaison.
 
 ***
@@ -472,7 +475,7 @@ public class Personne {
     }
 }
 ```
-Remarque : On remarque que les personnes sont automatiquement triées par âge grâce à l’utilisation de TreeSet avec un Comparator.
+Commentaire : On remarque que les personnes sont automatiquement triées par âge grâce à l’utilisation de TreeSet avec un Comparator.
 Chaque objet Personne est affiché avec son nom et son âge, et le TreeSet empêche l’ajout de doublons selon le critère défini par le Comparator.
 
 ### Quiz sur les Sets (HashSet, LinkedHashSet, TreeSet)
@@ -525,7 +528,9 @@ public class ExemplePriorityQueue {
     }
 }
 ```
-
+Commentaire : 
+On remarque que la PriorityQueue trie automatiquement les éléments selon leur ordre naturel.
+Ainsi, les nombres sont affichés dans l’ordre croissant lors du retrait avec poll()
 
 ***
 
@@ -565,7 +570,9 @@ public class ExempleArrayDeque {
     }
 }
 ```
-
+Commentaire : 
+On remarque que ArrayDeque permet de gérer les éléments à la fois au début et à la fin.
+Ainsi, on peut l’utiliser comme une file ou une pile selon les besoins.
 
 ### Quiz sur les Queues et Deques
 
@@ -685,6 +692,9 @@ public class GestionProjet {
 }
 ```
 
+Commentaire : 
+On remarque que ce code utilise une HashMap pour associer chaque employé à un projet précis.
+Cela permet de gérer facilement les relations entre employés et projets, et d’éviter les doublons grâce à equals() et hashCode().
 
 ***
 
@@ -712,7 +722,9 @@ public class ExempleLinkedHashMap {
 }
 ```
 
-
+Commentaire :
+On remarque que ce code utilise une HashMap pour associer chaque employé à un projet précis.
+Cela permet de gérer facilement les relations entre employés et projets, et d’éviter les doublons grâce à equals() et hashCode().
 ***
 
 ## TreeMap - Partie 1
@@ -782,7 +794,9 @@ public class GestionTreeMap {
     }
 }
 ```
-
+Commentaire : 
+On remarque que ce code utilise une TreeMap pour stocker les projets triés automatiquement selon leur code.
+L’interface Comparable permet de définir l’ordre naturel des clés (CodeProjet), ce qui garantit un affichage trié des éléments.
 
 ### Quiz sur les Maps
 
@@ -825,6 +839,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
